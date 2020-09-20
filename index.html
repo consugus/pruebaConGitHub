@@ -6,15 +6,15 @@
     <head>
         <meta charset="UTF-8"> <!-- UTF-8 para UNICODE, ISO-8859-1 para alfabeto latino -->
         <title>Patrón Módulo</title> <!-- Es el título de la pestaña en el navegador -->
-        
+
         <!--acá va el código javascript-->
-        <script > </script> 
-        
+        <script > </script>
+
         <!--Otra alternativa es llamar a un archivo.js esterno-->
-        <script src="scripts\miScript1.js" lang="JavaScript"> </script> 
+        <script src="scripts\miScript1.js" lang="JavaScript"> </script>
         <!--<script src="scripts\miScript2.js" lang="JavaScript"> </script> -->
         <!--<script src="scripts\miScript3.js" lang="JavaScript"> </script> -->
-        
+
         <!--Para definir estilos en un archivo externo-->
         <link href = "styles\estilo.css" rel = "stylesheet" type="text/css"/>
 
@@ -25,16 +25,17 @@
 
     <body>
         <!--style="color:crimson;"-->
-        <h1 >Ejemplo de patrón módulo</h1> 
+        <h1 >Ejemplo de patrón módulo</h1>
         <h3 id="primero"></h2>
         <h3 id="segundo"></h2>
-        
-        <script>
-            document.getElementById("primero").textContent = "Nombre: " + persona.getNombre();            
-        </script>        
+        <p>Esto es algún cambio hecho desde un branch hipotético</p>
+        <p>Y este va a ser un segundo cambio</p>
+            <script>
+            document.getElementById("primero").textContent = "Nombre: " + persona.getNombre();
+        </script>
         <script>
             document.getElementById("segundo").textContent = "Apellido: " + persona.getApellido();
-        </script>    
-        
+        </script>
+
     </body>
 </HTML>
